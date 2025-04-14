@@ -7,7 +7,7 @@ function Article({ title, date = "January 1, 1970", preview, minutes}){
             return "☕️".repeat(cups);
           } else {
             const bentos = Math.ceil(minutes / 10);
-            return "☕️".repeat(bentos);
+            return "🍱".repeat(bentos);
           }
         };
    
